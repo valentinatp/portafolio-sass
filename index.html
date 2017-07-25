@@ -4,565 +4,822 @@
 	<meta charset="UTF-8">
 	<title>Proyecto Sass</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="shortcut icon" type="image/png" href="docs/imagen.png">
+	<link rel="shortcut icon" type="image/png" href="img/logo_new.png">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<nav class="navbar  navbar-inverse  navbar-fixed-top">
 		<div class="container">
-			<button type="button" class="navbar-toggle"
-			data-toggle="collapse"
-			data-target=".navbar-collapse"
-			>
-			<span class="sr-only"> Toggle navigation</span>
-			<span class="icon-bar"> </span>
-			<span class="icon-bar"> </span>
-			<span class="icon-bar"> </span>
-		</button>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only"> Toggle navigation</span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+				<span class="icon-bar"> </span>
+			</button>
 
-		<a class="navbar-brand" href="#"> Bootsnipp</a>
+			<a class="navbar-brand" href="#"> Hestia Pro</a>
 
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav navbar-right">
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"
-					data-toggle="dropdown"> FEATURES
-					<b class="caret"> </b>
-					<ul class="dropdown-menu">
-						<li><a href="#">1 minute setup</a></li>
-						<li><a href="#"> Fast Updates & Support</a> </li>
-						<li><a href="#"> Live Customizer</a> </li>
-						<li><a href="#">Video Tutorials</a></li>
-						<li><a href="#"> Custom Backgrounds</a> </li>
-						<li><a href="#"> Responsive Design</a> </li>
-					</ul>
-				</li>
-				<li class="dropdown">
-					<a href="#" class="dropdown-toggle"
-					data-toggle="dropdown"> SECTIONS
-					<b class="caret"> </b>
-					<ul class="dropdown-menu">
-						<li><a href="#">Features</a></li>
-						<li><a href="#"> About</a> </li>
-						<li><a href="#"> Our team</a> </li>
-						<li><a href="#"> Price</a> </li>
-						<li><a href="#"> Testimonials</a> </li>
-					</ul>
-				</li>
-				<li> <a href="#">SHOP</a> </li>
-				<li> <a href="#">BLOG</a> </li>
-				<li class=""><a href="#">CONTACT</a> </li>
-			</ul>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle"
+						data-toggle="dropdown"><i class="fa fa-cloud" aria-hidden="true"></i> FEATURES
+						<b class="caret"> </b>
+						<ul class="dropdown-menu">
+							<li><a href="#">1 minute setup</a></li>
+							<li><a href="#"> Fast Updates & Support</a> </li>
+							<li><a href="#"> Live Customizer</a> </li>
+							<li><a href="#">Video Tutorials</a></li>
+							<li><a href="#"> Custom Backgrounds</a> </li>
+							<li><a href="#"> Responsive Design</a> </li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle"
+						data-toggle="dropdown"><i class="fa fa-arrows-v" aria-hidden="true"></i> SECTIONS
+						<b class="caret"> </b>
+						<ul class="dropdown-menu">
+							<li><a href="#">Features</a></li>
+							<li><a href="#"> About</a> </li>
+							<li><a href="#"> Our team</a> </li>
+							<li><a href="#"> Price</a> </li>
+							<li><a href="#"> Testimonials</a> </li>
+						</ul>
+					</li>
+					<li> <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>SHOP</a> </li>
+					<li> <a href="#"><i class="fa fa-rss" aria-hidden="true"></i>BLOG</a></li>
+					<li class=""><a href="#"><i class="fa fa-inbox" aria-hidden="true"></i>CONTACT</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</nav>
-<section>
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-		<!-- Indicators -->
-		
+	</nav>
 
-		<!-- Wrapper for slides -->
-		<div class="carousel-inner">
-			<div class="item active">
-				<img src="img/img_slider_1.jpg" alt="first">
+	<!-- CARRUSEL -->
+
+	<section id="seccion-uno">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="img/img_slider_1.jpg" alt="first" height="500">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-xs-12">
+									<div class="row">
+										<div class="col-md-12">
+											<h1>Simple & Awesome</h1>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<span>Beautiful, Elegantly Coded</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<button>See more</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="img/img_slider_2.jpg" alt="second" height="500">
+					<div class="carousel-caption">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-8 col-xs-12">
+									<div class="row">
+										<div class="col-md-12">
+											<h1>Slick Material Design</h1>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<span>Beautiful, Elegantly Coded, One-Page WordPress Theme for Business</span>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<button>See more</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 			</div>
 
-			<div class="item">
-				<img src="img/img_slider_2.jpg" alt="second">
-			</div>
-		</div>
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>	
+	</section>
 
-		<!-- Left and right controls -->
-		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
-			<span class="glyphicon glyphicon-chevron-left"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="right carousel-control" href="#myCarousel" data-slide="next">
-			<span class="glyphicon glyphicon-chevron-right"></span>
-			<span class="sr-only">Next</span>
-		</a>
-	</div>	
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="col-md-12 col-xs-12">
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro animi iusto in similique cumque ipsam esse quis fugiat. Nobis, rem minus, soluta inventore deserunt eum sapiente ut nulla enim veniam.</h3>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-12 col-xs-12">
-			<div class="row">
-				<div class="col-md-4 col-xs-12 text-center">
-					<div class="imagen">
-						<i class="fa fa-th" aria-hidden="true"></i>
-					</div>
-					<h4>Responsive</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, dolorem iure impedit maxime sint nulla fugit, velit a omnis. Cum quaerat iusto itaque dolore delectus provident voluptate, accusamus amet.</p>
-				</div>
-				<div class="col-md-4 col-xs-12 text-center">
-					<div class="imagen">
-						<i class="fa fa-th-list" aria-hidden="true"></i>
-					</div>
-					<h4>Quality</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum delectus eligendi tempora sit aspernatur fugit est ducimus, recusandae dignissimos quaerat in ipsum optio eveniet. Pariatur impedit est quam temporibus.</p>
-				</div>
-				<div class="col-md-4 col-xs-12 text-center">
-					<div class="imagen">
-						<i class="fa fa-bars" aria-hidden="true"></i>
-					</div>
-					<h4>Support</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum harum officiis, sunt quo sint amet, mollitia cumque, molestias laudantium deleniti quia atque sapiente possimus laboriosam libero molestiae! Unde, dolorem blanditiis.</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="col-md-12 col-xs-12">
-			<div class="row">
-				<div class="col-md-5 col-xs-12">
-					<h2>Who are we now</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci porro voluptas totam quo vel? Ipsum similique dolorem delectus, consectetur molestiae illum, ipsa aspernatur omnis nisi porro nulla eligendi eum a.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dicta ad quis sequi doloremque suscipit neque, repellendus necessitatibus, sit minima nam aliquam ipsum est odio incidunt, fugit. Pariatur alias, molestias.</p>
-				</div>
-				<div class="col-md-5 col-xs-12">
-					<img src="img/img_tablet.png" alt="imagen">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/pYOJNOJfJxU"  allowfullscreen></iframe>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="col md 12 col-xs-12">
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-					<h2>Products</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-xs-12 text-center">
-					<h4>Showcase your products in this beautiful shop section</h4>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="img/img_product_1.png" alt="imagen" width="200" height="300">
-					<h6>FASHION</h6>
-					<h4>Embroidered Dress</h4>
-					<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
-					<div class="row">
-						<div class="col-md-6">
-							<p><i class="fa fa-gbp" aria-hidden="true"></i>100.00</p>
-						</div>
-						<div class="col-md-6">
-							<i class="fa fa-cart-plus" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="img/img_product_2.png" alt="imagen" width="200" height="300">
-					<h6>POPULAR</h6>
-					<h4>Embroidered Dress</h4>
-					<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
-					<div class="row">
-						<div class="col-md-6">
-							<p><i class="fa fa-gbp" aria-hidden="true"></i>35.00</p>
-						</div>
-						<div class="col-md-6">
-							<i class="fa fa-cart-plus" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="img/img_product_3.png" alt="imagen" width="200" height="300">
-					<h6>TRENDING</h6>
-					<h4>Embroidered Dress</h4>
-					<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
-					<div class="row">
-						<p><i class="fa fa-gbp" aria-hidden="true"></i>45.00</p>
-					</div>
-				</div>
-				<div class="col-md-3 col-xs-12 text-center">
-					<img src="img/img_product_4.jpg" alt="imagen" width="200" height="300">
-					<h6>FASHION</h6>
-					<h4>Embroidered Dress</h4>
-					<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
-					<div class="row">
-						<div class="col-md-6">
-							<p><i class="fa fa-gbp" aria-hidden="true"></i>110.00</p>
-						</div>
-						<div class="col-md-6">
-							<i class="fa fa-cart-plus" aria-hidden="true"></i>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="row">
+	<!-- FORMS -->
+
+	<section id="seccion-dos">
+		<div class="container-fluid">
 			<div class="col-md-12 col-xs-12">
 				<div class="row">
-					<div class="col-md-12 col-xs-12 text-center">
-						<h1>Portfolio</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-xs-12 text-center">
-						<h4>Showcase your work effectively and in an attractive form that your prospective clients will love.</h4>
+					<div class="col-md-offset-2 col-md-7 col-xs-12 text-center">
+						<h3>Nullam blandit gravida viverra. Etiam turpis erat, sagittis sit amet felis non, porta porta justo. Integer ornare nibh nulla, id pulvinar metus cursus semper. Vivamus dictum pellentesque mi. Vivamus ipsum tellus, mattis non ex sed, semper sodales ligula. Vivamus luctus lorem.</h3>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_1.jpg" alt="portafolio" width="400" height="400">
-			</div>
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_2.jpg" alt="portafolio" width="400" height="400">
-			</div>
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_3.jpg" alt="portafolio" width="400" height="400">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<img src="img/img_portafolio_4.jpg" alt="portafolio">
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<img src="img/img_portafolio_5.jpg" alt="portafolio">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_6.jpg" alt="portafolio" width="400" height="400">
-			</div>
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_7.jpg" alt="portafolio" width="400" height="400">
-			</div>
-			<div class="col-md-4 col-xs-12">
-				<img src="img/img_portafolio_8.jpg" alt="portafolio" width="400" height="400">
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 col-xs-12">
-				<div class="row">
-					<div class="col-md-12 col-xs-12 text-center">
-						<h1>Meet our team</h1>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-12 col-xs-12 text-center">
-						<h4>Prove that you have real people working for you, with some nice looking profile pictures and links to social media.</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<div class="col-md-5 col-xs-12">
-					<img src="img/img_team_1.jpg" alt="team" height="200" width="250">
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h4>Desmond Purpleson</h4>
-					<h6>CEO</h6>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
-				</div>
-				<div class="col-md-6">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-google" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<div class="col-md-5 col-xs-12">
-					<img src="img/img_team_2.jpg" alt="team" height="200" width="250">
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h4>Desmond Purpleson</h4>
-					<h6>CEO</h6>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-google" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<div class="col-md-5 col-xs-12">
-					<img src="img/img_team_3.jpg" alt="team" height="200" width="250">
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h4>Desmond Purpleson</h4>
-					<h6>CEO</h6>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-google" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</div>
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<div class="col-md-5 col-xs-12">
-					<img src="img/img_team_4.jpg" alt="team" height="200" width="250">
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<h4>Desmond Purpleson</h4>
-					<h6>CEO</h6>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<i class="fa fa-facebook" aria-hidden="true"></i>
-					<i class="fa fa-google" aria-hidden="true"></i>
-					<i class="fa fa-twitter" aria-hidden="true"></i>
-					<i class="fa fa-linkedin" aria-hidden="true"></i>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 col-xs-12">
-				<h2>Choose a plan for your next project</h2>
-				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sint, delectus similique vitae officiis.</h4>
-			</div>
-			<div class="col-md-6 col-xs-12">
-				<div class="col-md-6 col-xs-12">
-					<div class="contenedor-plan">
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>TREASURE CHEST LITE</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>$89/year</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>Access to Hestia Pro</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>Access to All 20+ Themes</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>WordPress Video Tutorials</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>3 Domains License</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>1 year Free Shared Hosting</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>12 Months Support & Updates</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<button>BUY NOW</button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-12">
-					<div class="contenedor-plan">
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>PIRATE CLUB</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p><span>$</span>249</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>Access to Hestia Pro</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>Access to All 20+ Themes</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>WordPress Video Tutorials</p>
-							</div>
-						</div>
-						<hr>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>10 Domains License</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>1 year Free Shared Hosting</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<p>Lifetime Support & Updates</p>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12 col-xs-12">
-								<button>BUY NOW</button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="col-md-12 col-xs-12">
-		<div class="row">
-			<div class="col-md-4 col-xs-12 text-center">
-				<div class="imagen">
-					<img src="img/img_client_1.jpg" alt="clients">
-				</div>
-				<h4>Inverness McKenzie</h4>
-				<p>BUSINESS OWNER</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, dolorem iure impedit maxime sint nulla fugit, velit a omnis. Cum quaerat iusto itaque dolore delectus provident voluptate, accusamus amet.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 text-center">
-				<div class="imagen">
-					<img src="img/img_client_2.jpg" alt="clients">
-				</div>
-				<h4>Hanson Deck</h4>
-				<p>INDEPENDENT ARTIST</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum delectus eligendi tempora sit aspernatur fugit est ducimus, recusandae dignissimos quaerat in ipsum optio eveniet. Pariatur impedit est quam temporibus.</p>
-			</div>
-			<div class="col-md-4 col-xs-12 text-center">
-				<div class="imagen">
-					<img src="img/img_client_3.jpg" alt="clients">
-				</div>
-				<h4>Natalya Undergrowth</h4>
-				<p>FREELANCER</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum harum officiis, sunt quo sint amet, mollitia cumque, molestias laudantium deleniti quia atque sapiente possimus laboriosam libero molestiae! Unde, dolorem blanditiis.</p>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-				<h1>Subscribe to our Newsletter</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-				<p>Receive updates instantly</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-				<i class="fa fa-envelope-o" aria-hidden="true"></i>
-				<input type="text" placeholder="Your Email Here">
-				<button>SUBSCRIBE</button>
-			</div>
-		</div>
-	</div>
-</section>
-<section>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-				<h1>Blog</h1>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-12 col-xs-12 text-center">
-				<h4>Check out our latest news</h4>
-			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-12 col-xs-12">
 				<div class="row">
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="imagen">
-							<img src="img/img_block_1.jpg" alt="clients" width="300" height="200">
+							<i id="responsive" class="fa fa-th" aria-hidden="true"></i>
 						</div>
-						<p>APPEARANCE</p>
-						<h4>Perfectly on furniture</h4>
+						<h4>Responsive</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, dolorem iure impedit maxime sint nulla fugit, velit a omnis. Cum quaerat iusto itaque dolore delectus provident voluptate, accusamus amet.</p>
 					</div>
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="imagen">
-							<img src="img/img_block_2.jpg" alt="clients" width="300" height="200">
+							<i id="quality" class="fa fa-th-list" aria-hidden="true"></i>
 						</div>
-						<p>APPEARANCE</p>
-						<h4>Fat son how smiling natural</h4>
+						<h4>Quality</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum delectus eligendi tempora sit aspernatur fugit est ducimus, recusandae dignissimos quaerat in ipsum optio eveniet. Pariatur impedit est quam temporibus.</p>
 					</div>
 					<div class="col-md-4 col-xs-12 text-center">
 						<div class="imagen">
-							<img src="img/img_block_3.jpg" alt="clients" width="300" height="200">
+							<i id="support" class="fa fa-bars" aria-hidden="true"></i>
 						</div>
-						<p>APPEARANCE</p>
-						<h4>Admiration prosperous now</h4>
+						<h4>Support</h4>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum harum officiis, sunt quo sint amet, mollitia cumque, molestias laudantium deleniti quia atque sapiente possimus laboriosam libero molestiae! Unde, dolorem blanditiis.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
+	</section>
+
+	<!-- VIDEO -->
+
+	<section id="seccion-tres">
+		<div class="container-fluid">
+			<div class="col-md-12 col-xs-12">
+				<div class="row">
+					<div id="text" class="col-md-5 col-xs-12">
+						<h2>Who are we now</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci porro voluptas totam quo vel? Ipsum similique dolorem delectus, consectetur molestiae illum, ipsa aspernatur omnis nisi porro nulla eligendi eum a.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo dicta ad quis sequi doloremque suscipit neque, repellendus necessitatibus, sit minima nam aliquam ipsum est odio incidunt, fugit. Pariatur alias, molestias.</p>
+					</div>
+					<div class="col-md-5 col-xs-12">
+						<img src="img/img_tablet.png" alt="imagen">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12 text-center">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/pYOJNOJfJxU"  allowfullscreen></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PRODUCTOS --> 
+
+	<section id="seccion-cuatro">
+		<div class="container-fluid">
+			<div class="col md 12 col-xs-12">
+				<div class="row">
+					<div class="col-md-12 col-xs-12 text-center">
+						<h2>Products</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12 text-center">
+						<h4>Showcase your products in this beautiful shop section</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div id="fashion" class="col-md-3 col-xs-12 text-center">
+						<img src="img/img_product_1.png" alt="imagen" width="200" height="300">
+						<h6>FASHION</h6>
+						<h4>Embroidered Dress</h4>
+						<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><i class="fa fa-gbp" aria-hidden="true"></i>100.00</p>
+							</div>
+							<div class="col-md-6">
+								<i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div id="popular" class="col-md-3 col-xs-12 text-center">
+						<img src="img/img_product_2.png" alt="imagen" width="200" height="300">
+						<h6>POPULAR</h6>
+						<h4>Embroidered Dress</h4>
+						<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><i class="fa fa-gbp" aria-hidden="true"></i>35.00</p>
+							</div>
+							<div class="col-md-6">
+								<i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+					<div id="trending" class="col-md-3 col-xs-12 text-center">
+						<img src="img/img_product_3.png" alt="imagen" width="200" height="300">
+						<h6>TRENDING</h6>
+						<h4>Embroidered Dress</h4>
+						<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<div class="row">
+							<p><i class="fa fa-gbp" aria-hidden="true"></i>45.00</p>
+						</div>
+					</div>
+					<div id="fashion" class="col-md-3 col-xs-12 text-center">
+						<img src="img/img_product_4.jpg" alt="imagen" width="200" height="300">
+						<h6>FASHION</h6>
+						<h4>Embroidered Dress</h4>
+						<p>Sentiments two occasional affronting solicitude travelling and one contrasted. Fortune day out married parties.</p>
+						<div class="row">
+							<div class="col-md-6">
+								<p><i class="fa fa-gbp" aria-hidden="true"></i>110.00</p>
+							</div>
+							<div class="col-md-6">
+								<i class="fa fa-cart-plus" aria-hidden="true"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PORTAFOLIO -->
+
+	<section id="seccion-cinco">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h2>Portfolio</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h4>Showcase your work effectively and in an attractive form that your prospective clients will love.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_1.jpg" alt="portafolio" width="400" height="300">
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_2.jpg" alt="portafolio" width="400" height="300">
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_3.jpg" alt="portafolio" width="400" height="300">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-xs-12">
+					<img src="img/img_portafolio_4.jpg" alt="portafolio" height="300" width="600">
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<img src="img/img_portafolio_5.jpg" alt="portafolio" height="300" width="600">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_6.jpg" alt="portafolio" width="400" height="300">
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_7.jpg" alt="portafolio" width="400" height="300">
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<img src="img/img_portafolio_8.jpg" alt="portafolio" width="400" height="300">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- TEAM -->
+
+	<section id="seccion-seis">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h2>Meet our team</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h4>Prove that you have real people working for you, with some nice looking profile pictures and links to social media.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="ceo" class="col-md-6 col-xs-12">
+					<div class="col-md-5 col-xs-12">
+						<img src="img/img_team_1.jpg" alt="team" height="200" width="200">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h4>Desmond Purpleson</h4>
+						<h6>CEO</h6>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
+					</div>
+					<div class="col-md-6">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fa fa-google" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div id="marketing" class="col-md-6 col-xs-12">
+					<div class="col-md-5 col-xs-12">
+						<img src="img/img_team_2.jpg" alt="team" height="200" width="200">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h4>Desmond Purpleson</h4>
+						<h6>MARKETING SPECIALIST</h6>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<i class="fa fa-pinterest" aria-hidden="true"></i>
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div id="graphic" class="col-md-6 col-xs-12">
+					<div class="col-md-5 col-xs-12">
+						<img src="img/img_team_3.jpg" alt="team" height="200" width="200">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h4>Desmond Purpleson</h4>
+						<h6>GRAPHIC DESIGNER</h6>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+						<i class="fa fa-dribbble" aria-hidden="true"></i>
+					</div>
+				</div>
+				<div id="lead" class="col-md-6 col-xs-12">
+					<div class="col-md-5 col-xs-12">
+						<img src="img/img_team_4.jpg" alt="team" height="200" width="200">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<h4>Desmond Purpleson</h4>
+						<h6>LEAD DEVELOPER</h6>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente doloremque omnis voluptate impedit accusamus, possimus nisi corporis.</p>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<i class="fa fa-github" aria-hidden="true"></i>
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
+						<i class="fa fa-linkedin" aria-hidden="true"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- PLAN -->
+
+	<section id="seccion-siete">
+		<div class="container-fluid">
+			<div class="row">
+				<div id="text"class="col-md-6 col-xs-12">
+					<h2>Choose a plan for your next project</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sint, delectus similique vitae officiis.</p>
+				</div>
+				<div class="col-md-6 col-xs-12">
+					<div class="col-md-6 col-xs-12">
+						<div class="contenedor-plan">
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<h6>TREASURE CHEST LITE</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<h3 class="card-title">
+										<small>$</small>89<small>/year</small>
+									</h3>
+								</div>
+								<ul>
+									<li>Access to <b>Hestia Pro</b></li>
+									<li>Access to All <b>20+ Themes</b></li>
+									<li>WordPress Video Tutorials</li>
+									<li><b>3</b> Domains License</li>
+									<li>1 Year Free Shared Hosting</li>
+									<li><b>12</b> Months Support & Updates</li>
+								</ul>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<button>BUY NOW</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<div class="contenedor-plan">
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<h6>PIRATE CLUB</h6>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<h3 class="card-title">
+										<small>$</small>249
+									</h3>
+								</div>
+								<ul>
+									<li>Access to <b>Hestia Pro</b></li>
+									<li>Access to All <b>20+ Themes</b></li>
+									<li>WordPress Video Tutorials</li>
+									<li><b>3</b> Domains License</li>
+									<li>1 Year Free Shared Hosting</li>
+									<li><b>Lifetime</b> Support & Updates</li>
+								</ul>
+							</div>
+							<div class="row">
+								<div class="col-md-12 col-xs-12">
+									<button>BUY NOW</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CLIENTS -->
+
+	<section id="seccion-ocho">
+		<div class="col-md-12 col-xs-12">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h2>Our Clients Love Us</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-xs-12 text-center">
+							<h4>You need more information? Check what other persons are saying about our product. They are very happy with their purchase.</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-12 text-center">
+					<div class="imagen">
+						<img src="img/img_client_1.jpg" alt="clients">
+					</div>
+					<h4>Inverness McKenzie</h4>
+					<h5>BUSINESS OWNER</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, dolorem iure impedit maxime sint nulla fugit, velit a omnis. Cum quaerat iusto itaque dolore delectus provident voluptate, accusamus amet.</p>
+				</div>
+				<div class="col-md-4 col-xs-12 text-center">
+					<div class="imagen">
+						<img src="img/img_client_2.jpg" alt="clients">
+					</div>
+					<h4>Hanson Deck</h4>
+					<h5>INDEPENDENT ARTIST</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum delectus eligendi tempora sit aspernatur fugit est ducimus, recusandae dignissimos quaerat in ipsum optio eveniet. Pariatur impedit est quam temporibus.</p>
+				</div>
+				<div class="col-md-4 col-xs-12 text-center">
+					<div class="imagen">
+						<img src="img/img_client_3.jpg" alt="clients">
+					</div>
+					<h4>Natalya Undergrowth</h4>
+					<h5>FREELANCER</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum harum officiis, sunt quo sint amet, mollitia cumque, molestias laudantium deleniti quia atque sapiente possimus laboriosam libero molestiae! Unde, dolorem blanditiis.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- SUBSCRIBE -->
+
+	<section id="seccion-nueve">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<h2>Subscribe to our Newsletter</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<h4>Receive updates instantly</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div id="contendedor-input" class="col-md-offset-3 col-md-6 col-xs-12 text-center">
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>
+					<input type="text" placeholder="Your Email Here">
+					<button>SUBSCRIBE</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- BLOG -->
+
+	<section id="seccion-diez">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<h1>Blog</h1>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12 text-center">
+					<h4>Check out our latest news</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<div class="row">
+						<div class="col-md-4 col-xs-12 text-center">
+							<div class="imagen">
+								<img src="img/img_block_1.jpg" alt="clients" width="300" height="200">
+							</div>
+							<p>APPEARANCE</p>
+							<h4>Perfectly on furniture</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet architecto, dolorem iure impedit maxime sint nulla fugit, velit a omnis. Cum quaerat iusto itaque dolore delectus provident voluptate, accusamus amet.</p>
+						</div>
+						<div class="col-md-4 col-xs-12 text-center">
+							<div class="imagen">
+								<img src="img/img_block_2.jpg" alt="clients" width="300" height="200">
+							</div>
+							<p>APPEARANCE</p>
+							<h4>Fat son how smiling natural</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis illum delectus eligendi tempora sit aspernatur fugit est ducimus, recusandae dignissimos quaerat in ipsum optio eveniet. Pariatur impedit est quam temporibus.</p>
+						</div>
+						<div class="col-md-4 col-xs-12 text-center">
+							<div class="imagen">
+								<img src="img/img_block_3.jpg" alt="clients" width="300" height="200">
+							</div>
+							<p>APPEARANCE</p>
+							<h4>Admiration prosperous now</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum harum officiis, sunt quo sint amet, mollitia cumque, molestias laudantium deleniti quia atque sapiente possimus laboriosam libero molestiae! Unde, dolorem blanditiis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- GET IN TOUCH -->
+
+	<section id="seccion-once">
+		<div class="container-fluid">
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<h1>Get in Touch</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-10 col-xs-12">
+						<h4>You need more information? Check what other persons are saying about our product. They are very happy with their purchase.</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<h4><i class="fa fa-map-marker" aria-hidden="true"></i> Find us at the office</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<p>Bld Mihail Kogalniceanu, nr. 8, 7652 Bucharest, Romania</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<h4><i class="fa fa-mobile" aria-hidden="true"></i> Find us at the office</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-12">
+						<p>Michael Jordan +40 762 321 762 Mon - Fri, 8:00-22:00</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<div class="col-md-9 col-xs-12 text-center">
+						<h4>Contanct Us</h4>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<label for="name"></label>
+						<input type="text" placeholder="Your Name">
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<label for="email"></label>
+						<input type="text" placeholder="Your Email">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<label for="subjet"></label>
+						<input type="text" placeholder="Subject">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12">
+						<label for="message">Your message</label>
+						<br>
+						<input type="text">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-offset-7 col-md-3">
+						<button>SEND MESSAGE</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- FOOTER -->
+
+	<footer>
+		<div class="container-fluid">
+			<div class="col-md-12 col-xs-12">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6 col-xs-12">
+								<h4>About us</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<p>Inhabit hearing perhaps on ye do no. It maids decay as there he. Smallest on suitable disposed although do blessing he juvenile in.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<p>Society excited forbade. Here name off yet she long sold easy. Differed oh cheerful procured pleasure securing suitable. Hold rich on an he oh fine. Chapter ability shyness article welcome be do on service.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6 col-xs-12">
+								<h4>Social Media Feed</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-1">
+									<span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<p>What's New in Hestia - Our Flagship Product HTTPS://T.CO/LSLFRTYPZX</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-1">
+									<span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<p>Our Hestia Facebook Group has reached 169 members & counting HTTPS://WWW.FACEBOOK.COM/GROUPS/2024469201114053</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-1">
+									<span><i class="fa fa-twitter" aria-hidden="true"></i></span>
+								</div>
+								<div class="col-md-6 col-xs-12">
+									<p>Great example of our #WORDPRESS theme Hestia HTTPS://WWW.JELLESCHUURMAN.NL</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6 col-xs-12">
+								<h4>Instagram Feed</h4>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-2">
+									<img src="img/img_instagram_1.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_2.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_3.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_4.jpg" alt="insta" height="60" width="60">
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-xs-12">
+								<div class="col-md-2">
+									<img src="img/img_instagram_5.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_6.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_7.jpg" alt="insta" height="60" width="60">
+								</div>
+								<div class="col-md-2">
+									<img src="img/img_instagram_8.jpg" alt="insta" height="60" width="60">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<div class="col-md-1 text-center">
+						<a href="#">BLOG</a>
+					</div>
+					<div class="col-md-3 text-center">
+						<a href="#">PRESENTATION</a>
+					</div>
+					<div class="col-md-2 text-center">
+						<a href="#">DISCOVER</a>
+					</div>
+					<div class="col-md-2 text-center">
+						<a href="#">PAYMENT</a>
+					</div>
+					<div class="col-md-2 text-center">
+						<a href="#">CONTACT</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-offset-2 col-md-4">
+				<div class="row">
+					<div class="col-md-2">
+						<a href="#">Hestia</a>
+					</div>
+					<div class="col-md-3">
+						<p>Powered by</p>
+					</div>
+					<div class="col-md-2">
+						<a href="#">WordPress</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

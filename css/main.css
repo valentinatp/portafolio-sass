@@ -1,3 +1,284 @@
+* {
+  font-family: 'Roboto', sans-serif; }
 
+#seccion-uno .carousel-inner img {
+  width: 100%;
+  height: 100vh; }
+  #seccion-uno .carousel-inner img h1 {
+    color: black;
+    font-weight: 600; }
+
+#seccion-dos .container-fluid {
+  background-color: white;
+  margin: 0 40px;
+  position: relative;
+  bottom: 30px;
+  z-index: 1000;
+  height: 90vh; }
+  #seccion-dos .container-fluid h3 {
+    color: grey;
+    margin: 40px 0; }
+  #seccion-dos .container-fluid #responsive {
+    color: #e91e63;
+    font-size: 100px; }
+  #seccion-dos .container-fluid #quality {
+    color: #00bcd4;
+    font-size: 100px; }
+  #seccion-dos .container-fluid #support {
+    color: #4caf50;
+    font-size: 100px; }
+  #seccion-dos .container-fluid h4 {
+    font-size: 20px;
+    font-weight: 600; }
+  #seccion-dos .container-fluid p {
+    color: grey;
+    margin: 20px; }
+
+#seccion-tres {
+  background-image: url(../img/img_city.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #seccion-tres .container-fluid {
+    background-color: rgba(0, 0, 0, 0.5); }
+    #seccion-tres .container-fluid #text {
+      padding: 30px; }
+      #seccion-tres .container-fluid #text h2 {
+        color: white;
+        font-weight: 600;
+        padding-top: 100px;
+        font-size: 40px; }
+      #seccion-tres .container-fluid #text p {
+        color: white;
+        font-size: 17px;
+        font-weight: 600; }
+    #seccion-tres .container-fluid img {
+      width: 100%;
+      height: 100%;
+      padding: 20px;
+      margin: 30px; }
+    #seccion-tres .container-fluid iframe {
+      margin: 30px; }
+
+#seccion-cuatro {
+  background-color: #f0f0f0; }
+  #seccion-cuatro h2 {
+    color: #3c4858;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 10px; }
+  #seccion-cuatro h4 {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 40px; }
+  #seccion-cuatro img {
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid white; }
+  #seccion-cuatro #fashion {
+    background-color: white;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 40px 33px; }
+    #seccion-cuatro #fashion h6 {
+      color: #e91e63; }
+    #seccion-cuatro #fashion h4 {
+      color: #3c4858;
+      font-weight: 600; }
+    #seccion-cuatro #fashion p {
+      color: grey; }
+  #seccion-cuatro #popular {
+    background-color: white;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 40px 33px; }
+    #seccion-cuatro #popular h6 {
+      color: #e91e63; }
+    #seccion-cuatro #popular h4 {
+      color: #3c4858;
+      font-weight: 600; }
+    #seccion-cuatro #popular p {
+      color: grey; }
+  #seccion-cuatro #trending {
+    background-color: white;
+    width: 260px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 40px 33px; }
+    #seccion-cuatro #trending h6 {
+      color: #e91e63; }
+    #seccion-cuatro #trending h4 {
+      color: #3c4858;
+      font-weight: 600; }
+    #seccion-cuatro #trending p {
+      color: grey; }
+
+#seccion-cinco {
+  margin: 0 30px; }
+  #seccion-cinco h2 {
+    color: #3c4858;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 10px; }
+  #seccion-cinco h4 {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 40px; }
+  #seccion-cinco img {
+    position: relative;
+    bottom: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    box-shadow: 0 0 10px 0;
+    margin: 10px; }
+
+#seccion-seis h2 {
+  color: #3c4858;
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 10px; }
+#seccion-seis h4 {
+  color: grey;
+  font-size: 17px;
+  margin-bottom: 40px; }
+#seccion-seis img {
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 0; }
+#seccion-seis #ceo, #seccion-seis #marketing, #seccion-seis #graphic, #seccion-seis #lead {
+  margin: 40px 0; }
+  #seccion-seis #ceo h6, #seccion-seis #marketing h6, #seccion-seis #graphic h6, #seccion-seis #lead h6 {
+    color: grey;
+    font-weight: 600;
+    font-size: 15px; }
+  #seccion-seis #ceo p, #seccion-seis #marketing p, #seccion-seis #graphic p, #seccion-seis #lead p {
+    color: grey; }
+  #seccion-seis #ceo i, #seccion-seis #marketing i, #seccion-seis #graphic i, #seccion-seis #lead i {
+    font-size: 18px;
+    margin: 4px 10px; }
+  #seccion-seis #ceo .fa-facebook, #seccion-seis #marketing .fa-facebook, #seccion-seis #graphic .fa-facebook, #seccion-seis #lead .fa-facebook {
+    color: #3b5998; }
+  #seccion-seis #ceo .fa-google, #seccion-seis #marketing .fa-google, #seccion-seis #graphic .fa-google, #seccion-seis #lead .fa-google {
+    color: #dd4b39; }
+  #seccion-seis #ceo .fa-twitter, #seccion-seis #marketing .fa-twitter, #seccion-seis #graphic .fa-twitter, #seccion-seis #lead .fa-twitter {
+    color: #55acee; }
+  #seccion-seis #ceo .fa-linkedin, #seccion-seis #marketing .fa-linkedin, #seccion-seis #graphic .fa-linkedin, #seccion-seis #lead .fa-linkedin {
+    color: #0976b4; }
+  #seccion-seis #ceo .fa-dribbble, #seccion-seis #marketing .fa-dribbble, #seccion-seis #graphic .fa-dribbble, #seccion-seis #lead .fa-dribbble {
+    color: #eb538e; }
+  #seccion-seis #ceo .fa-pinterest, #seccion-seis #marketing .fa-pinterest, #seccion-seis #graphic .fa-pinterest, #seccion-seis #lead .fa-pinterest {
+    color: #cc2127; }
+  #seccion-seis #ceo .fa-github, #seccion-seis #marketing .fa-github, #seccion-seis #graphic .fa-github, #seccion-seis #lead .fa-github {
+    color: #333333; }
+
+#seccion-siete {
+  background-color: #f0f0f0; }
+  #seccion-siete #text {
+    padding: 30px; }
+    #seccion-siete #text h2 {
+      color: #3c4858;
+      font-weight: 600;
+      font-size: 40px;
+      padding-top: 10px; }
+    #seccion-siete #text p {
+      color: grey;
+      font-size: 17px; }
+  #seccion-siete .contenedor-plan {
+    background-color: white;
+    text-align: center;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 300px; }
+    #seccion-siete .contenedor-plan h6 {
+      color: gray; }
+    #seccion-siete .contenedor-plan h3 {
+      margin-top: 30px;
+      font-size: 60px; }
+    #seccion-siete .contenedor-plan small {
+      position: relative;
+      top: -17px;
+      font-size: 26px; }
+    #seccion-siete .contenedor-plan ul {
+      max-width: 240px;
+      margin: 10px auto;
+      padding: 0;
+      list-style: none; }
+    #seccion-siete .contenedor-plan li {
+      padding: 12px 0;
+      border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+      color: gray;
+      text-align: center;
+      list-style: none; }
+    #seccion-siete .contenedor-plan button {
+      background-color: #e91e63;
+      border-radius: 4px;
+      border: none;
+      color: white;
+      padding: 10px;
+      margin: 6px; }
+
+#seccion-ocho {
+  height: 100vh; }
+  #seccion-ocho img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; }
+  #seccion-ocho h2 {
+    color: #3c4858;
+    font-weight: 600;
+    font-size: 40px;
+    padding-top: 10px; }
+  #seccion-ocho h4 {
+    color: grey;
+    font-size: 17px;
+    margin-bottom: 40px; }
+  #seccion-ocho h5 {
+    color: grey;
+    font-weight: 600; }
+  #seccion-ocho p {
+    color: grey; }
+
+#seccion-nueve {
+  background-image: url(../img/about.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh; }
+  #seccion-nueve .container-fluid {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 60vh; }
+    #seccion-nueve .container-fluid h2 {
+      color: white;
+      font-weight: 600;
+      font-size: 40px;
+      padding-top: 10px; }
+    #seccion-nueve .container-fluid h4 {
+      color: white;
+      font-size: 17px;
+      margin-bottom: 40px; }
+    #seccion-nueve .container-fluid #contendedor-input {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px; }
+      #seccion-nueve .container-fluid #contendedor-input i {
+        font-size: 20px;
+        margin: 0 5px; }
+      #seccion-nueve .container-fluid #contendedor-input input {
+        width: 60%;
+        border-left: none;
+        border-right: none;
+        border-top: none; }
+      #seccion-nueve .container-fluid #contendedor-input button {
+        background-color: #e91e63;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        padding: 10px;
+        margin: 6px; }
 
 /*# sourceMappingURL=main.css.map */
